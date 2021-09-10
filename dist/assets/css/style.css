@@ -2,6 +2,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.card a {
+  color: black;
+  text-decoration: none;
+}
+.card a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .custom {
   background-color: firebrick;
 }
