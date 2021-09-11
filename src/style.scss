@@ -1,26 +1,23 @@
 // variables
-$primaryColor: rgb(178, 34, 34);
+$primaryColor: rgb(146, 0, 0);
 $secondaryColor: #1a2634;
 $textColor: #1a2634;
 $headingColor: white;
 
+// font
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 // style
 *{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-.card{
-    a{
-        color: black;
-        text-decoration: none;
-        &:hover{
-            color: black;
-            text-decoration: underline;
-        }
-    }
+body{
+    background-color: whitesmoke;
 }
+
 .custom{
     background-color: $primaryColor;
 }
-.jumbotron{
-    color: white;
+.bg-custom{
+    background-color: $primaryColor;
 }
